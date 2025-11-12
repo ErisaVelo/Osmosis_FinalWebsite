@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Osmosis — Home</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <!-- (ngjite bllokun e navbar-it këtu) -->
+  <header>
+    <div class="navbar">
+      <a href="index.html" class="brand"><img src="images/logov2.png" alt="Osmosis Logo" class="logo"></a>
+      <ul class="nav-links">
+        <li><a data-page="index.html" href="index.html">Home</a></li>
+        <li class="dropdown">
+          <button class="drop-trigger" type="button" data-group="products">Products</button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="automotives.html">Automotives</a></li>
+            <li><a href="waterslides.html">Waterslides</a></li>
+            <li><a href="ornamentals.html">Ornamentals</a></li>
+            <li><a href="various_composites.html">Various Composites</a></li>
+          </ul>
+        </li>
+        <li><a data-page="services.html" href="services.html">Services</a></li>
+        <li><a data-page="contact.html" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Shaping Creativity Through Composites</h1>
+      <p>Automotives • Waterslides • Ornamentals • Various Composites</p>
+    </div>
+  </section>
+
+
+
+  <main class="container">
+    <h2 class="section-title">Welcome to Osmosis</h2>
+    <p class="section-sub">We blend innovation, functionality, and aesthetics to craft durable, high-quality composite
+      creations.</p>
+
+    <div class="grid cols-2">
+      <a class="card" href="automotives.html">
+        <img src="images/cops.png" alt="Automotives">
+        <div class="p"><strong>Automotives</strong><br>Precision composite parts for vehicles.</div>
+      </a>
+      <a class="card" href="waterslides.html">
+        <img src="images/Floating-Water-Slide.avif" alt="Waterslides">
+        <div class="p"><strong>Waterslides</strong><br>Safe and thrilling aquapark experiences.</div>
+      </a>
+      <a class="card" href="ornamentals.html">
+        <img src="images/fok1.jpg" alt="Ornamentals">
+        <div class="p"><strong>Ornamentals</strong><br>Design objects that elevate spaces.</div>
+      </a>
+      <a class="card" href="various_composites.html">
+        <img src="images/Arrlamp.jpg" alt="Various Composites">
+        <div class="p"><strong>Various Composites</strong><br>Custom composite projects.</div>
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-wrap">
+      <div>
+        <h4>About Us</h4>
+        <p>Osmosis specializes in creative composite design and production, blending innovation, functionality, and
+          aesthetics. With a passion for form and precision, Osmosis transforms ideas into durable, high-quality
+          creations that inspire imagination and elevate experiences.</p>
+        <p><em>Osmosis – Shaping creativity through composites.</em></p>
+      </div>
+      <div>
+        <h4>Details</h4>
+        <p>Address: <strong>ELBASAN 3001, Rruga "Elbasan-Librazhd"</strong></p>
+        <p>Email: <a href="mailto:info@osmosiscomposite.com">info@osmosiscomposite.com</a></p>
+        <p>Contact number: <a href="tel:+355695551230">+355 69 555 1230</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span id="year"></span> Osmosis. All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Osmosis — Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <a href="index.html" class="brand"><img src="images/logov2.png" alt="Osmosis Logo" class="logo"></a>
+      <ul class="nav-links">
+        <li><a data-page="index.html" href="index.html">Home</a></li>
+        <li class="dropdown">
+          <button class="drop-trigger" type="button" data-group="products">Products</button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="automotives.html">Automotives</a></li>
+            <li><a href="waterslides.html">Waterslides</a></li>
+            <li><a href="ornamentals.html">Ornamentals</a></li>
+            <li><a href="other_compositions.html">Various Composites</a></li>
+          </ul>
+        </li>
+        <li><a data-page="services.html" href="services.html">Services</a></li>
+        <li><a data-page="contact.html" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="section-title">Contact</h1>
+    <p class="section-sub">We’d love to hear from you.</p>
+
+    <div class="grid cols-2" style="align-items:start">
+      <div>
+        <h3>Details</h3>
+        <p><strong>Address:</strong> ELBASAN 3001, Rruga "Elbasan-Librazhd"</p>
+        <p><strong>Email:</strong> <a href="mailto:info@osmosiscomposite.com">info@osmosiscomposite.com</a></p>
+        <p><strong>Contact number:</strong> <a href="tel:+355695551230">+355 69 555 1230</a></p>
+      </div>
+      <div>
+        <h3>Send a Message</h3>
+        <form id="contactForm">
+          <label>Full Name<br><input type="text" name="name" required></label>
+          <label>Email<br><input type="email" name="email" required></label>
+          <label>Message<br><textarea name="message" rows="6" required></textarea></label>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-wrap">
+      <div>
+        <h4>About Us</h4>
+        <p>Osmosis specializes in creative composite design and production, blending innovation, functionality, and aesthetics. With a passion for form and precision, Osmosis transforms ideas into durable, high-quality creations that inspire imagination and elevate experiences.</p>
+        <p><em>Osmosis – Shaping creativity through composites.</em></p>
+      </div>
+      <div>
+        <h4>Details</h4>
+        <p>Address: <strong>ELBASAN 3001, Rruga "Elbasan-Librazhd"</strong></p>
+        <p>Email: <a href="mailto:info@osmosiscomposite.com">info@osmosiscomposite.com</a></p>
+        <p>Contact number: <a href="tel:+355695551230">+355 69 555 1230</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span id="year"></span> Osmosis. All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
